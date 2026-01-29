@@ -65,7 +65,7 @@ The layout adapts automatically for:
 1. Download or clone the repository
 
    ```bash
-   git clone https://github.com/your-username/basic-html-portfolio.git
+   git clone https://github.com/1sarthak7/basic-html-portfolio.git
    ```
 2. Open `index.html` in any modern web browser
 
