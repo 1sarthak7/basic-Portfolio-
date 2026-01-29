@@ -24,7 +24,6 @@ The design uses a **dark theme**, modern typography, and card-based sections to 
 * **CSS Variables** – Easy theme customization
 * **Flexbox** – Skills layout and alignment
 
-> No JavaScript or external libraries are used — making this project lightweight and beginner-friendly.
 
 ---
 
@@ -59,8 +58,6 @@ The layout adapts automatically for:
 * Tablets
 * Mobile devices
 
-Media queries ensure readability and usability on smaller screens.
-
 ---
 
 ##  How to Run the Project
@@ -72,7 +69,6 @@ Media queries ensure readability and usability on smaller screens.
    ```
 2. Open `index.html` in any modern web browser
 
-That’s it — no setup required 🎉
 
 ---
 
