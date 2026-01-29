@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak Bhopale | Portfolio</title>
+    <style>
+        /* --- Basic Reset & Variables --- */
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* --- Layout --- */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 0;
+            border-bottom: 1px solid #334155;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: var(--accent);
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--accent);
+            padding-left: 15px;
+        }
+
+        /* --- Skills Grid --- */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background-color: var(--card-bg);
+            color: var(--text-primary);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #334155;
+        }
+
+        /* --- Projects List --- */
+        .project-card {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            transition: transform 0.2s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .project-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .project-tech {
+            font-size: 0.85rem;
+            color: var(--accent);
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .project-desc {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* --- Contact --- */
+        .contact-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            padding-top: 20px;
+            border-top: 1px solid #334155;
+        }
+
+        /* --- Mobile Tweaks --- */
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            body { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Sarthak Bhopale</h1>
+            <p class="subtitle">Developer & Designer</p>
+        </header>
+
+        <section id="about">
+            <h2>About</h2>
+            <p style="color: var(--text-secondary);">
+                I am a developer with a passion for building functional systems and intuitive user interfaces. My work bridges the gap between complex backend logic and clean frontend design.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">PyQt6</span>
+                <span class="skill-tag">Web Development</span>
+                <span class="skill-tag">Android / Kotlin</span>
+                <span class="skill-tag">UI/UX Design</span>
+                <span class="skill-tag">Glassmorphism</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Selected Projects</h2>
+
+            <div class="project-card">
+                <div class="project-title">HabitOS</div>
+                <span class="project-tech">Python, PyQt6, macOS</span>
+                <p class="project-desc">
+                    A comprehensive habit and discipline tracking system designed specifically for the macOS ecosystem, focusing on productivity and routine management.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title">AI Drop-out Prediction System</div>
+                <span class="project-tech">AI/ML, Python</span>
+                <p class="project-desc">
+                    A counseling and prediction tool built to identify at-risk students and provide early intervention strategies.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title">Freelance Design</div>
+                <span class="project-tech">Graphic Design, Excel</span>
+                <p class="project-desc">
+                    Created marketing materials and posters for freelance business services.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p style="color: var(--text-secondary);">
+                Currently open to new projects and collaborations.
+            </p>
+            <a href="mailto:email@example.com" class="contact-link">Email Me &rarr;</a>
+        </section>
+
+        <footer>
+            &copy; 2026 Sarthak Bhopale. All rights reserved.
+        </footer>
+
+    </div>
+
+</body>
+</html>
