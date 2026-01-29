@@ -1,10 +1,10 @@
-# 🌐 Basic HTML Portfolio
+#  Basic HTML Portfolio
 
 A clean, minimal, and responsive **personal portfolio website** built using **pure HTML and CSS**. This project is designed as a beginner-friendly portfolio that highlights personal information, skills, projects, and contact details in a professional and visually appealing layout.
 
 ---
 
-## ✨ Project Overview
+##  Project Overview
 
 This portfolio website serves as a simple personal branding page. It focuses on:
 
@@ -17,7 +17,7 @@ The design uses a **dark theme**, modern typography, and card-based sections to 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **HTML5** – Structure and content
 * **CSS3** – Styling, layout, responsiveness
@@ -28,7 +28,7 @@ The design uses a **dark theme**, modern typography, and card-based sections to 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── index.html
@@ -40,7 +40,7 @@ The design uses a **dark theme**, modern typography, and card-based sections to 
 
 ---
 
-## 📌 Sections Included
+##  Sections Included
 
 * **Header** – Name and professional title
 * **About** – Short personal introduction
@@ -51,7 +51,7 @@ The design uses a **dark theme**, modern typography, and card-based sections to 
 
 ---
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The layout adapts automatically for:
 
@@ -63,7 +63,7 @@ Media queries ensure readability and usability on smaller screens.
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Download or clone the repository
 
@@ -76,7 +76,7 @@ That’s it — no setup required 🎉
 
 ---
 
-## 🎨 Customization Guide
+##  Customization Guide
 
 You can easily customize:
 
@@ -87,7 +87,7 @@ You can easily customize:
 
 ---
 
-## 📚 Learning Outcome
+##  Learning Outcome
 
 This project helps beginners understand:
 
@@ -98,10 +98,10 @@ This project helps beginners understand:
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and free to use for **educational and personal purposes**.
 
 ---
 
-### ⭐ If you like this project, consider giving it a star on GitHub!
+###  If you like this project, consider giving it a star on GitHub!
